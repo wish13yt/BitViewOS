@@ -1,12 +1,11 @@
 import requests
-import psutil
 print("[1] Install")
 print("[2] Info")
 print("[3] Exit")
 choice = input("What do ya think? (case sensitive, ex: Install) ")
 if (choice == "Install"):
     print("Alright! We're installing...")
-    url = 'https://github.com/wish13yt/BitviewOS/BitviewOS.py?raw=true'
+    url = 'https://github.com/wish13yt/BitViewOS/blob/main/BitviewOS.py?raw=true'
 
 
     response = requests.get(url)
