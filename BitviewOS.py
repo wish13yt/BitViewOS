@@ -13,5 +13,6 @@ if (choice == "Update"):
         with open(file_Path, 'wb') as file:
             file.write(response.content)
         print('Installed!')
+        exec(open('BitviewOS.py').read())
     else:
         print('Failed to download file')
